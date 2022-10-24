@@ -1,0 +1,1 @@
+[{"package": "python-bitcoinlib", "version": "0.11.2", "deps": []}, {"package": "requests", "version": "2.28.1", "deps": [{"package": "certifi", "version": "2019.11.28"}, {"package": "urllib3", "version": "1.25.8"}, {"package": "idna", "version": "2.8"}, {"package": "charset-normalizer", "version": "2.1.1"}]}]
