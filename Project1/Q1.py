@@ -70,3 +70,55 @@ if __name__ == '__main__':
     )
     print(response.status_code, response.reason)
     print(response.text)
+
+"""
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "3bd43617c52bda11a15d19ef3b9399860adaa3bdb70c7fe8f0dca1807f8f8bff",
+    "addresses": [
+      "muhHHDTdvgUXbjPa3LLScQ4yjQTf2hDCuX"
+    ],
+    "total": 90000,
+    "fees": 30000,
+    "size": 191,
+    "vsize": 191,
+    "preference": "high",
+    "relayed_by": "88.12.12.38",
+    "received": "2022-10-20T10:39:03.870088022Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "460fbb9794b98c103b003db30903c4ec80427b6c8ec11b6f16a6d7b296be8eae",
+        "output_index": 0,
+        "script": "47304402202af03b7e5f53a655d187fe267610f2be8caa121d19f44101b93c14d6f2ae3cd80220163755bcc0d47273dcc24738aa36a3c9df1ab4b015310359d1dec7cc43aafb1d012103e561edcc7ae5f86a6ecc1f289bb762895877b9f1af138b65a90110e41dea39a9",
+        "output_value": 120000,
+        "sequence": 4294967295,
+        "addresses": [
+          "muhHHDTdvgUXbjPa3LLScQ4yjQTf2hDCuX"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2377433
+      }
+    ],
+    "outputs": [
+      {
+        "value": 90000,
+        "script": "76a9149b85c4d84f713a34a7e8a17c9b577e2c7320bc2588ac",
+        "addresses": [
+          "muhHHDTdvgUXbjPa3LLScQ4yjQTf2hDCuX"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+
+
+"""

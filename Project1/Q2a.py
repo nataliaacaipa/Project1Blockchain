@@ -27,3 +27,52 @@ if __name__ == '__main__':
         Q2a_txout_scriptPubKey, my_private_key, network_type)
     print(response.status_code, response.reason)
     print(response.text)
+
+"""
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "63a6898434e2de2cb06635804432023b7783060fcc73ea9162f0a1a16e1eba17",
+    "addresses": [
+      "muhHHDTdvgUXbjPa3LLScQ4yjQTf2hDCuX"
+    ],
+    "total": 90000,
+    "fees": 30000,
+    "size": 173,
+    "vsize": 173,
+    "preference": "high",
+    "relayed_by": "88.12.12.38",
+    "received": "2022-10-24T08:13:37.573209099Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "460fbb9794b98c103b003db30903c4ec80427b6c8ec11b6f16a6d7b296be8eae",
+        "output_index": 2,
+        "script": "473044022049412444e7fc3db5261049232702198a20456b4c0ac35cb612af0f7c4147a846022062c929d97ee0859910c31e83648c6cc70e7a124c3754350401010c74f456ed06012103e561edcc7ae5f86a6ecc1f289bb762895877b9f1af138b65a90110e41dea39a9",
+        "output_value": 120000,
+        "sequence": 4294967295,
+        "addresses": [
+          "muhHHDTdvgUXbjPa3LLScQ4yjQTf2hDCuX"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2377433
+      }
+    ],
+    "outputs": [
+      {
+        "value": 90000,
+        "script": "6e936088945887",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+
+"""
